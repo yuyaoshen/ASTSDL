@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 path='./'
-file_dir=path+'testset/'
-output='testset'
+file_dir=path+'dataset/'
+output='dataset'
 files=os.listdir(file_dir)
 data=pd.DataFrame(columns=['filename','label','astens'])
 count=0
