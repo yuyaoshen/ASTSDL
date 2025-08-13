@@ -36,15 +36,15 @@ def predicting(model,samples,maxSeqLen):
 	return results
 	
 os.environ['TF_CPP_MIN_LOG_LEVEL']='3'
-model_path='models/OJ/'
+model_path='models/BCB/'
 results_path='results/'
 maxSeqLen=1000
 modelName='BiLSTM'
 hiddenUnits=400
-roundNum=10
+roundNum=5
 
-path='./data/OJ/'
-test_samples=pd.read_pickle(path+'testset.pkl')
+path='./data/BCB/'
+test_samples=pd.read_pickle(path+'BCB_Full.pkl')
 splitASTENS(test_samples['astens'])
 
 for i in range(0,roundNum):

@@ -1,10 +1,10 @@
 ### Requirements
 + python 3.8
 + pickle 4.0
-+ pandas 1.3.5
-+ numpy 1.22.3
-+ tensorflow 2.7.0
-+ keras 2.7.0
++ pandas 1.5.3
++ numpy 1.26.4
++ tensorflow >=2.7.0
++ keras >=2.7.0
 + RAM 16GB or more
 + GPU with CUDA support is also needed
 + BATCH_SIZE could be reconfigured by user

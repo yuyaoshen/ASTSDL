@@ -3,9 +3,10 @@
 path=.
 rm $path/Samples*
 
-round=10
+round=5
 for((i=1;i<=round;i++))
 do
 	python splitData.py
 	python trainingModel.py
 done
+rm $path/Samples*
