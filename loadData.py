@@ -9,7 +9,7 @@ data=pd.DataFrame(columns=['filename','label','astens'])
 count=0
 for filename in files:
 	label=filename.split('@')[0]
-	label=int(label)
+	label=int(label) #BCB数据集需 -1
 	astens=[]
 	with open(file_dir+filename,mode='r',encoding='utf-8') as f:
 		content=f.readline()
