@@ -25,7 +25,7 @@ def splitASTENS(astens):
 		i=i+1
 
 maxSeqLen=1000
-classNum=10
+classNum=10 #BCB数据集为10类，OJ数据集为104类
 
 hiddenUnits=400
 dropout=0.2
